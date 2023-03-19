@@ -49,7 +49,7 @@ const Collection = () => {
             </div>
             </div>  
             <div className='w-[100%] flex lg:flex-row flex-col lg:gap-3 gap-6 m-auto'>
-                <div className=' rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
+                <div className='p-8 hover:scale-[105%] rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
                     <img src={grinder} className='object-contain w-full h-[400px]' />
                     <div className='pl-6'>
                         <h1 className='font-bold text-[35px] pt-10'>$ 139.50</h1>
@@ -57,7 +57,7 @@ const Collection = () => {
                         <h3 className='text-neutral-600 text-[18px]'>Full Spectrum CBD Oil</h3>
                     </div>
                 </div>
-                <div className='rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
+                <div className='p-8 hover:scale-[105%] rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
                     <img src={feilma} className='object-contain w-full h-[400px]' />
                     <div className='pl-6'>
                         <h1 className='font-bold text-[35px] pt-10'>$ 139.50</h1>
@@ -65,7 +65,7 @@ const Collection = () => {
                         <h3 className='text-neutral-600 text-[18px]'>Full Spectrum CBD Oil</h3>
                     </div>
                 </div>
-                <div className='rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
+                <div className='p-8 hover:scale-[105%] rounded-xl lg:w-[30%] w-[90%] m-auto flex flex-col bg-white'>
                     <img src={electric} className='object-cover w-full h-[400px]' />
                     <div className='pl-6'>
                         <h1 className='font-bold text-[35px] pt-10'>$ 139.50</h1>
