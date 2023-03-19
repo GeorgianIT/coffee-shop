@@ -3,24 +3,24 @@ import { chemex} from '../assets';
 
 const Design = () => {
   return (
-    <div className='flex w-[60%] flex-col text-start mt-20 text-black m-auto'>
+    <div className='flex lg:w-[60%] w-[80%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
-              <h1 className='text-[40px] w-[45%]'>Our Blogs Coffe with trending topic for this week</h1>
-              <div className='flex gap-40 mt-20'>
+              <h1 className='text-[40px] lg:w-[45%] w-[90%]'>We provide the stylish design and best quality just for you!</h1>
+              <div className='flex lg:flex-row flex-col lg:gap-40 gap-10 mt-20'>
                     <div>
-                      <img src={chemex} className='w-[650px] h-[650px] object-cover rounded-xl '/>
+                      <img src={chemex} className='lg:w-[650px] lg:h-[650px] object-cover rounded-xl '/>
                     </div>
-                    <div className='w-[500px] flex flex-col'>
-                      <h1 className='font-bold text-[40px] mt-10'>Teapot Coffee</h1>
+                    <div className='lg:w-[500px] flex flex-col'>
+                      <h1 className='font-bold text-[40px] lg:mt-10'>Teapot Coffee</h1>
                       <h3 className='text-neutral-500 text-[20px] mt-6'>Full Spectrum CBD Oil</h3>
                       <div className='flex gap-20'>
                             <div className='flex-col mt-14'>
                                 <h1 className='font-bold text-[40px]'>$120.99</h1>
-                                <h3 className='text-neutral-500 text-[20px] mt-6'>Special Price</h3>
+                                <h3 className='text-neutral-500 text-[20px] lg:mt-6'>Special Price</h3>
                              </div>
                             <div className='flex-col mt-14'>
                                 <h1 className='font-bold text-[40px]'>$120.99</h1>
-                                <h3 className='text-neutral-500 text-[20px] mt-6'>Special Price</h3>
+                                <h3 className='text-neutral-500 text-[20px] lg:mt-6'>Special Price</h3>
                             </div>
                       </div>
                       <h3 className='text-neutral-500 text-[20px] mt-6'>We're thrilled about our light roast. It was our first coffee we ever roasted, so it has a special place in our hearts this single origin is inspired.</h3>
