@@ -2,9 +2,29 @@ import React from 'react'
 import DesignServicesSharpIcon from '@mui/icons-material/DesignServicesSharp';
 import DonutSmallIcon from '@mui/icons-material/DonutSmall';
 import LayersIcon from '@mui/icons-material/Layers';
+import { motion} from 'framer-motion';
+import { useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
+
 const Features = () => {
+    const control = useAnimation();
+    const [ref, inView] = useInView();
+    
+    useEffect(() => {
+      if (inView) {
+        control.start("visible");
+      } else {
+        control.start("hidden");
+      }
+    }, [control, inView]);
     return (
-    <div id='features' className='flex w-[60%] flex-col text-start mt-20 text-black m-auto'>
+    <motion.div
+    ref={ref}
+    variants={boxVariant}
+    initial="hidden"
+    animate={control} id='features' className='flex w-[60%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex lg:justify-between lg:flex-row flex-col gap-10 pb-10'>
             <h1 className='text-[40px] lg:w-[45%] w-[95%]'>Special Features thats make you happy and cheer up!</h1>
             <button className='bg-black text-white px-8 h-[50px] rounded-xl'>SEE MORE</button>
@@ -27,7 +47,7 @@ const Features = () => {
                 <h4 className='text-[20px] text-neutral-500'>We present the best choice of wood with premium quality and sturdy</h4>    
             </div>
         </div>   
-    </div>    
+    </motion.div>    
   )
 }
 

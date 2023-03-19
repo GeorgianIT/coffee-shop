@@ -1,7 +1,9 @@
 import React from 'react'
 import { instagram, plane, twitter, linkedin } from '../assets/index';
 
+
 const Footer = () => {
+
   return (
     <footer id='contact' className='bg-black text-white flex flex-col'>
           <h1 className='w-[80%] m-auto text-[40px] text-start mt-10'>ColdnBrew.</h1>

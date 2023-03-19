@@ -3,10 +3,29 @@ import DesignServicesSharpIcon from '@mui/icons-material/DesignServicesSharp';
 import DonutSmallIcon from '@mui/icons-material/DonutSmall';
 import LayersIcon from '@mui/icons-material/Layers';
 import { grinder, feilma, electric } from '../assets';
+import { motion} from 'framer-motion';
+import { useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
 
 const Collection = () => {
+    const control = useAnimation();
+    const [ref, inView] = useInView();
+    
+    useEffect(() => {
+      if (inView) {
+        control.start("visible");
+      } else {
+        control.start("hidden");
+      }
+    }, [control, inView]);
     return (
-    <div id='pricing' className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 text-black m-auto'>
+    <motion.div
+    ref={ref}
+    variants={boxVariant}
+    initial="hidden"
+    animate={control} id='pricing' className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10'>
             <h1 className='text-[40px] lg:w-[45%] w-[90%]'>Let's see our collection product!</h1>
                 
@@ -55,7 +74,7 @@ const Collection = () => {
                     </div>
                 </div>
             </div>    
-    </div>    
+    </motion.div>    
   )
 }
 

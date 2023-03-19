@@ -1,10 +1,28 @@
 import React from 'react'
 import { coffeeBlog, benefits } from '../assets';
-
+import { motion} from 'framer-motion';
+import { useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
 
 const Blogs = () => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+  
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
   return (
-    <div className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 mb-20 text-black m-auto'>
+    <motion.div
+    ref={ref}
+    variants={boxVariant}
+    initial="hidden"
+    animate={control} className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 mb-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
               <h1 className='text-[40px] lg:w-[45%] w-[90%]'>Our Blogs Coffe with trending topic for this week</h1>
               <div className='flex lg:flex-row flex-col gap-20 mt-20 '>
@@ -20,7 +38,7 @@ const Blogs = () => {
                     </div>
               </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
