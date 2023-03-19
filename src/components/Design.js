@@ -24,13 +24,13 @@ const Design = () => {
     initial="hidden"
     animate={control} className='flex lg:w-[60%] w-[80%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
-              <h1 className='text-[40px] lg:w-[45%] w-[90%]'>We provide the stylish design and best quality just for you!</h1>
-              <div className='flex lg:flex-row flex-col lg:gap-40 gap-10 mt-20'>
+              <h1 className='text-[40px] xl:w-[45%] w-[90%]'>We provide the stylish design and best quality just for you!</h1>
+              <div className='flex xl:flex-row flex-col lg:gap-40 gap-10 mt-20 m-auto'>
                     <div>
                       <img src={chemex} className='lg:w-[650px] lg:h-[650px] object-cover rounded-xl '/>
                     </div>
                     <div className='lg:w-[500px] flex flex-col'>
-                      <h1 className='font-bold text-[40px] lg:mt-10'>Teapot Coffee</h1>
+                      <h1 className='font-bold text-[40px] xl:mt-10'>Teapot Coffee</h1>
                       <h3 className='text-neutral-500 text-[20px] mt-6'>Full Spectrum CBD Oil</h3>
                       <div className='flex gap-20'>
                             <div className='flex-col mt-14'>
