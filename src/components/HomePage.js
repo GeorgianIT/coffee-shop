@@ -11,9 +11,9 @@ const HomePage = () => {
                   <h1 className='text-white text-[30px] pt-10 lg:pb-10 pb-6'>
                       @ ColdnBrew.
                   </h1>
-                  <h1 className='text-white lg:text-[70px] text-[45px] w-[70%] lg:pt-20 pt-10 font-bold'>Chose Your Coffee Maker With CnB.</h1>
+                  <h1 className='text-white lg:text-[55px] text-[45px] w-[70%] lg:pt-20 pt-10 font-bold'>Chose Your Coffee Maker With CnB.</h1>
                   {/* <h1 className='text-orange-500 text-[80px] font-bold'>.</h1> */}
-              <p className='lg:pt-10 lg:pb-10 pt-6 pb-6 text-neutral-500 border-b w-[85%] lg:text-[30px] text-[20px]'> Buy the best premium coffee makers</p>
+              <p className='lg:pt-10 lg:pb-10 pt-6 pb-6 text-neutral-500 border-b w-[85%] lg:text-[25px] text-[20px]'> Buy the best premium coffee makers</p>
               <div className='flex pt-10'>
                       <div className='w-[40%]'>
                           <h1 className='text-orange-500 lg:text-[50px] text-[30px] font-bold'>120K</h1>
