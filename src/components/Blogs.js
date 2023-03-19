@@ -1,9 +1,10 @@
 import React from 'react'
 import { coffeeBlog, benefits } from '../assets';
 
+
 const Blogs = () => {
   return (
-    <div className='flex w-[60%] flex-col text-start mt-20 text-black m-auto'>
+    <div className='flex w-[60%] flex-col text-start mt-20 mb-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
               <h1 className='text-[40px] w-[45%]'>Our Blogs Coffe with trending topic for this week</h1>
               <div className='flex gap-20 mt-20'>

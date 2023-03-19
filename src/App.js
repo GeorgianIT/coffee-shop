@@ -3,6 +3,8 @@ import Blogs from './components/Blogs';
 import Collection from './components/Collection';
 import Features from './components/Features';
 import HomePage from './components/HomePage';
+import Design from './components/Design'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <HomePage />
       <Features />
       <Collection />
+      <Design />
       <Blogs />
+      <Footer />
     </div>
   );
 }

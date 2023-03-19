@@ -3,4 +3,9 @@ import feilma from './feilma.jpg'
 import electric from './electric-burr.jpg'
 import coffeeBlog from './coffee_blog.jpg'
 import benefits from './benefits.jpg'
-export { grinder, feilma, electric,coffeeBlog, benefits}
+import chemex from './chemex.jpg'
+import instagram from './icons8-instagram-48.png'
+import plane from './icons8-linkedin-circled-48.png'
+import linkedin from './icons8-paper-plane-48.png'
+import twitter from './icons8-twitter-48.png'
+export { grinder, feilma, electric,coffeeBlog, benefits,chemex, instagram, plane, linkedin, twitter}
