@@ -8,16 +8,16 @@ const Navbar = () => {
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 m-auto" id="mobile-menu-language-select">
     <ul class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
       <li className='px-5 border-r-[1px] border-gray-100 text-[18px]'>
-        <a href="#" class="block px-2 pl-3 pr-4 text-white">About</a>
+        <a href="#about" class="block px-2 pl-3 pr-4 text-white">About</a>
       </li>
       <li className='pr-5 border-r-[1px] border-gray-100 text-[18px]'>
-        <a href="#" class="block px-2 pl-3 pr-4 text-white">Pricing</a>
+        <a href="#pricing" class="block px-2 pl-3 pr-4 text-white">Pricing</a>
       </li>
       <li className='pr-5 border-r-[1px] border-gray-100 text-[18px]'>
-        <a href="#" class="block px-2 pl-3 pr-4 text-white">Features</a>
+        <a href="#features" class="block px-2 pl-3 pr-4 text-white">Features</a>
       </li>
       <li className='pr-5 border-gray-100 text-[18px]'>
-        <a href="#" class="block px-2 pl-3 pr-4 text-white">Contact</a>
+        <a href="#contact" class="block px-2 pl-3 pr-4 text-white">Contact</a>
       </li>
     </ul>
     </div>

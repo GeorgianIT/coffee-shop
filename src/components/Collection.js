@@ -6,7 +6,7 @@ import { grinder, feilma, electric } from '../assets';
 
 const Collection = () => {
     return (
-    <div className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 text-black m-auto'>
+    <div id='pricing' className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10'>
             <h1 className='text-[40px] lg:w-[45%] w-[90%]'>Let's see our collection product!</h1>
                 
