@@ -9,7 +9,7 @@ import BackButton from './components/BackButton';
 
 function App() {
   return (
-    <div className="App w-[100vw] bg-neutral-100">
+    <div className="App w-[100vw] bg-neutral-100 overscroll-x-hidden overflow-hidden">
       <BackButton/>
       <HomePage />
       <Features />

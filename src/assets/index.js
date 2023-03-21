@@ -8,4 +8,9 @@ import instagram from './icons8-instagram-48.png'
 import plane from './icons8-linkedin-circled-48.png'
 import linkedin from './icons8-paper-plane-48.png'
 import twitter from './icons8-twitter-48.png'
-export { grinder, feilma, electric,coffeeBlog, benefits,chemex, instagram, plane, linkedin, twitter}
+import add from './icons8-add-100.png'
+import arrow from './icons8-right-32.png'
+import arrowUpRight from './icons8-arrow-up-right-48.png'
+import usa from './icons8-united-states-48.png'
+import orangeLine from './icons8-vertical-line-50.png'
+export { grinder, feilma, electric,coffeeBlog, benefits,chemex, instagram, plane, linkedin, twitter, add,arrow,arrowUpRight,usa ,orangeLine}

@@ -26,7 +26,7 @@ const Sidebar = () => {
       <Hamburger color='white'/>
     </button>
   )}
-    <div className={`text-end top-0 block lg:hidden right-0 w-full bg-gradient-to-l from-neutral-900 to-transparent p-10 pl-20 text-white absolute h-full z-40 ${showSidebar ? "translate-x-0 " : "translate-x-full"} ease-in-out duration-300`}>
+    <div className={`text-end top-0 right-0 w-full bg-gradient-to-l from-neutral-900 to-transparent p-10 pl-20 text-white absolute h-full z-40 ${showSidebar ? "translate-x-0 " : "translate-x-full"} ease-in-out duration-300`}>
     <ul class="flex flex-col gap-4 p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
       <li className='text-[18px]'>
         <a href="#about" class="block px-2 pl-3 pr-4 text-white">About</a>

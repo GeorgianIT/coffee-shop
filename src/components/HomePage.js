@@ -19,7 +19,7 @@ const HomePage = () => {
       }
     }, [control, inView]);
   return (
-      <div className='flex w-[100vw] h-[105vh]'>
+      <div className='flex w-[100vw] h-[105vh] '>
           <div className='flex flex-col bg-gradient-to-r from-neutral-800 xl:pl-0 xl:pl-20 pl-10 to bg-black xl:w-[50vw] w-[100vw] h-[auto]'>
               <Sidebar/>
               <div className='flex flex-col xl:w-[70%] w-[90%] h-[100%] m-auto text-start mt-10'>
