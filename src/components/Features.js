@@ -25,9 +25,9 @@ const Features = () => {
     ref={ref}
     variants={boxVariant}
     initial="hidden"
-    animate={control} id='features' className='flex w-[60%] flex-col text-start mt-20 text-black m-auto lg:w-[45%] w-[90%]'>
+    animate={control} id='features' className='flex lg:w-[60%] flex-col text-start mt-20 text-black m-auto w-[90%]'>
         <div className='flex lg:justify-between lg:flex-row flex-col gap-10 pb-10 '>
-            <h1 className='lg:text-[40px] text-[25px]  border-l-4 border-orange-500 pl-10'>Special Features thats make you happy and cheer up!</h1>
+            <h1 className='lg:text-[40px] text-[25px] xl:w-[70%] border-l-4 border-orange-500 lg:pl-10 pl-4'>Special Features thats make you happy and cheer up!</h1>
             <button className='bg-black hover:scale-[105%] transform transition duration-300 text-white px-8 h-[50px] rounded-xl'>SEE MORE</button>
                 
             </div>

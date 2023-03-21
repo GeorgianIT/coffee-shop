@@ -24,8 +24,8 @@ const Blogs = () => {
     initial="hidden"
     animate={control} className='flex m-auto lg:w-[80%] xl:w-[60%] w-[90%] flex-col text-start mt-20 mb-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
-              <h1 className='lg:text-[40px] text-[25px] lg:w-[80%] xl:w-[45%] w-[90%] border-l-4 border-orange-500 pl-10'>Our Blogs Coffe with trending topic for this week</h1>
-              <div className='flex m-auto lg:w-[80%] xl:flex-row flex-col gap-20 mt-20 '>
+              <h1 className='lg:text-[40px] text-[25px] lg:w-[80%] border-l-4 border-orange-500 lg:pl-10 pl-4'>Our Blogs Coffe with trending topic for this week</h1>
+              <div className='flex m-auto xl:flex-row flex-col gap-20 mt-20 '>
                     <div className='bg-neutral-200 hover:scale-[110%] transform transition duration-300 p-10 rounded-xl'>
                         <img src={coffeeBlog} className='xl:w-[580px] xl:h-[290px] object-cover rounded-xl z-0 ' />
                       <h1 className='font-bold text-[35px] mt-10'>10 Recommendation Coffee 2021</h1>

@@ -27,7 +27,7 @@ const Collection = () => {
     initial="hidden"
     animate={control} id='pricing' className='flex lg:w-[60%] w-[90%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10'>
-            <h1 className='lg:text-[40px] text-[25px] lg:w-[45%] w-[90%] border-l-4 border-orange-500 pl-10'>Let's see our collection product!</h1>
+            <h1 className='lg:text-[40px] text-[25px] border-l-4 border-orange-500 lg:pl-10 pl-4'>Let's see our collection product!</h1>
                 
             </div>
         <div className='flex w-[100%] flex-row text-start mb-20'>

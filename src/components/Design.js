@@ -25,7 +25,7 @@ const Design = () => {
     initial="hidden"
     animate={control} className='flex lg:w-[60%] w-[80%] flex-col text-start mt-20 text-black m-auto'>
         <div className='flex justify-between pb-10 flex-col'>
-              <h1 className='lg:text-[40px] text-[25px] xl:w-[45%] w-[90%] border-l-4 border-orange-500 pl-10'>We provide the stylish design and best quality just for you!</h1>
+              <h1 className='lg:text-[40px] text-[25px] xl:w-[70%] border-l-4 border-orange-500 lg:pl-10 pl-4'>We provide the stylish design and best quality just for you!</h1>
               <div className='flex xl:flex-row flex-col lg:gap-40 gap-10 mt-20 m-auto'>
                     <div>
                       <img src={chemex} className='lg:w-[650px] hover:scale-[110%] transform transition duration-300 lg:h-[650px] object-cover rounded-xl '/>
